@@ -1,0 +1,52 @@
+welcome-gui:
+  title: "&6&lЗдраствуй, новый игрок!"
+  rows: 4
+  open-delay-ticks: 20
+  filler-material: BLACK_STAINED_GLASS_PANE
+
+  info-items:
+    greeting:
+      slot: 4
+      material: NETHER_STAR
+      name: "&6&lЗдраствуй, новый игрок %player%!"
+      lore:
+        - "&7Добро пожаловать на &eChaosSMP&7!"
+        - "&7Ты &6#%number% &7игрок на сервере."
+        - ""
+        - "&aОзнакомься с информацией ниже!"
+
+    server_info:
+      slot: 11
+      material: BOOK
+      name: "&b&lО сервере ChaosSMP"
+      lore:
+        - "&7IP сервера: &fchaossmpgood.mcsh.gg"
+        - "&7Порт Bedrock: &f12380"
+        - "&7Версия: &f1.21.11"
+        - ""
+        - "&eГлавное меню: &f/menu"
+
+    features:
+      slot: 13
+      material: DIAMOND_SWORD
+      name: "&d&lОсобенности сервера"
+      lore:
+        - "&7• &6Редкие ресурсные мобы &7в мире"
+        - "&7• &eКастомные напитки: &f/alcohol"
+        - "&7• &aЧестное выживание без лишнего доната"
+
+    rules:
+      slot: 15
+      material: SHIELD
+      name: "&c&lПравила игры"
+      lore:
+        - "&71. Без читов, X-Ray и автокликеров"
+        - "&72. Уважай других игроков"
+        - "&73. Не ломай спавн и чужие постройки без причины"
+
+  close-button:
+    slot: 31
+    material: BARRIER
+    name: "&c&l✖ Закрыть"
+    lore:
+      - "&7Нажми, чтобы закрыть окно и начать игру"
