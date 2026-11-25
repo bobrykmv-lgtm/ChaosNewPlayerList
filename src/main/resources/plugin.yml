@@ -1,0 +1,19 @@
+name: ChaosNewPlayerList
+version: 1.0.0
+main: com.chaossmp.chaosnewplayerlist.ChaosNewPlayerList
+api-version: '1.21'
+description: Welcome GUI and new player tracker for ChaosSMP
+
+commands:
+  newplayers:
+    description: Список новых игроков и предпросмотр окна приветствия
+    usage: /<command> [preview|reload]
+    permission: chaosnewplayerlist.use
+
+permissions:
+  chaosnewplayerlist.use:
+    description: Просмотр списка новых игроков и окна приветствия
+    default: true
+  chaosnewplayerlist.admin:
+    description: Перезагрузка конфига ChaosNewPlayerList
+    default: op
